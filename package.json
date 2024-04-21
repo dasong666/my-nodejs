@@ -1,0 +1,28 @@
+{
+  "name": "my-nodejs",
+  "version": "0.0.1",
+  "description": "my node playground",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasong666/my-nodejs.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "David Song",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dasong666/my-nodejs/issues"
+  },
+  "homepage": "https://github.com/dasong666/my-nodejs#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "morgan": "^1.10.0",
+    "node-cache": "^5.1.2"
+  }
+}
